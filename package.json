@@ -1,0 +1,23 @@
+{
+  "name": "projectmanagebe",
+  "version": "1.0.0",
+  "description": "koa2 node server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangguangkai",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "koa-mysql-session": "^0.0.2",
+    "koa-route": "^3.2.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
